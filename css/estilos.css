@@ -29,8 +29,21 @@ body {
     text-decoration: none;
 }
 
-/* Change color on hover */
+.topnav2 a {
+    float          : right;
+    display        : block;
+    color          : #128a36;
+    text-align     : right;
+    padding        : 28px 32px;
+    text-decoration: dotted;
+}
+
 .topnav a:hover {
     background-color: #ddd;
     color           : black;
+}
+
+.topnav2 a:hover {
+    background-color: rgb(160, 27, 27);
+    color           : rgb(31, 12, 204);
 }
