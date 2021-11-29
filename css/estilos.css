@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
+
+/* Style the header */
+.header {
+    background-color: #f1f1f1;
+    padding         : 20px;
+    text-align      : center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+    overflow        : hidden;
+    background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+    float          : left;
+    display        : block;
+    color          : #f2f2f2;
+    text-align     : center;
+    padding        : 14px 16px;
+    text-decoration: none;
+}
+
+.topnav2 a {
+    float          : right;
+    display        : block;
+    color          : #128a36;
+    text-align     : right;
+    padding        : 28px 32px;
+    text-decoration: dotted;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color           : black;
+}
+
+.topnav2 a:hover {
+    background-color: rgb(160, 27, 27);
+    color           : rgb(31, 12, 204);
+}
+
+img{
+    border-style: dotted;
+    border-width: 1cm;
+    border-color: #333;
+}
