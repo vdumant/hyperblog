@@ -1,2 +1,5 @@
 Mañana hblaremos de su vida laboral
 Agregado ssh key
+
+Master 1
+Master 2
